@@ -1,0 +1,191 @@
+body {
+  margin: 0px;
+}
+
+nav {
+  width: 100%;
+  background-color: #ee2442;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+body,
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+.throwinghats {
+  /* The image used */
+  background-image: url("backgroundlanding.jpg");
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* canvas {
+  background: #ee2442;
+  height: 100%;
+} */
+
+.image2 {
+  /* The image used */
+  background-image: url(earthbg.jpg);
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h3{
+  color: #ee2442;
+  font-family: proxima-nova, sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+p{
+  color: #494949;
+  font-family: proxima-nova, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.welcome {
+  background: #ffffff;
+  position: relative;
+  z-index: 1;
+  margin-top: -70px;
+  height: auto;
+  padding: 1% 10% 6% 10%;
+}
+
+.whoarewe {
+  background: #ffffff;
+  position: relative;
+  z-index: 1;
+  margin-top: -400px;
+}
+
+#beginscroll{
+  visibility: hidden;
+  margin-top: 0px;
+  padding-bottom: 30px;
+  height: auto;
+}
+/* 
+.welcome:after {
+  background: inherit;
+  top: 0;
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-4deg);
+  transform-origin: 100%;
+  z-index: -1;
+  margin-top: -120px;
+} */
+
+.fas {
+  position: absolute;
+  margin-top: -95px;
+  left: 50%;
+  right: 50%;
+  margin-left: -25px;
+  font-size: 40px;
+  color: white;
+  z-index: 999;
+  background: #ee2442;
+  padding: 0px 0px 14px 15px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+
+.fas:hover {
+  transform: scale(1.05);
+}
+
+h1 {
+  color: white;
+  font-family: proxima-nova, sans-serif;
+  font-size: 70px;
+  font-weight: 800;
+}
+
+#maintitle {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  background-color: #ee2442;
+  font-family: proxima-nova, sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+#subtitle {
+  position: absolute;
+  top: 330px;
+  left: 0;
+  right: 0;
+  padding: 3px 0px;
+  text-decoration: none;
+  width: 650px;
+  margin: auto;
+  text-align: center;
+}
+
+.btn {
+  border: 3px solid white;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  padding: 7px 30px;
+  font-family: proxima-nova, sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.5s;
+  position: absolute;
+  width: 280px;
+  top: 240px;
+  left: 50%;
+  right: 50%;
+  margin-left: -140px;
+}
+
+#todaylogo{
+  position: absolute;
+  opacity: 0.8;
+  padding-top: 70px;
+  left: 50%;
+  right: 50%;
+  margin-left: -100px;
+  width: 200px;
+  height: auto;
+}
+
+.getinvolved:hover {
+  background-color: white;
+  color: #ee2442;
+  border: 3px solid #ee2442;
+}
