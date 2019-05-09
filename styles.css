@@ -310,7 +310,7 @@ body {
 }
 
 .rex-ray-image {
-  background-image: url(https://i2.wp.com/humansideoftech.com/wp-content/uploads/PNGPIX-COM-Microsoft-Logo-PNG-Transparent-1.png?ssl=1);
+  background-image: url(https://1000logos.net/wp-content/uploads/2017/04/Microsoft-Logo.png);
 }
 
 .grid-image-top.sputnik {
@@ -525,11 +525,20 @@ button {
   border: none;
   cursor: pointer;
   width: 100%;
-  opacity: 0.9;
-}
+  font-size: 30px;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 600;
+  opacity: 0.9;}
 
 button:hover {
   opacity:1;
+}
+
+#manymore{
+color: rgb(88, 88, 88);
+padding-left: 9%;
+font-size: 30px;
+padding-bottom: 40px;
 }
 
 /* Extra styles for the cancel button */
@@ -555,6 +564,12 @@ button:hover {
   clear: both;
   display: table;
 }
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 400px;  /* The height is 400 pixels */
+  width: 100%;  /* The width is the width of the web page */
+ }
 
 /* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
